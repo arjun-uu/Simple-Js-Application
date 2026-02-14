@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5fa792;
+    
+}
+h1 {
+    font-family: 'Arial', sans-serif; 
+    font-size: 2rem; 
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+    text-align: center; 
+    margin: 1rem;
+    background-color: #4CAF50;
+    padding: 0.5rem; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+   
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    font-size: 8vmin;
+    border: none;
+    border-radius: 10px;
+    color:rgb(139, 12, 12);  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff; /* Default background color */
+    border: 2px solid #000;
+}
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.1); /* Light overlay effect */
+    cursor: pointer;
+}
+
+
+.reset{
+    margin-top: 8px;
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 2px solid green;
+    background-color: rgb(0, 255, 170);
+    font-weight:600;
+
+}
+.reset:hover{
+    background-color: rgb(0, 255, 170, 0.5);
+}
+
+.box, .reset {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+@media (max-width: 600px) {
+    .game {
+        height: 80vmin;
+        width: 80vmin;
+    }
+    .box {
+        height: 22vmin;
+        width: 22vmin;
+        font-size: 10vmin;
+    }
+}

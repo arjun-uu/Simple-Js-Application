@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #b1e5e0;
+}
+
+.container {
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.container>h1 {
+    font-size: 2rem;
+    color: #1b4fdf;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    column-gap: 15px;
+}
+
+.logo {
+    width: 20%;
+    height: 20%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.logo>img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    transition: transform 0.4s ease, border 0.4s ease;
+}
+
+.logo>img:hover {
+    transform: scale(1.1);
+    border: 3px solid #404041;
+    box-shadow: 0 4px 40px #4e73df;
+    transition: transform 0.4s ease, border 0.4s ease, box-shadow 0.4s ease;
+}
+
+.choosen {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.choosen h2 {
+    margin-top: 20px;
+    color: #2c3e50;
+    font-size: 1.6rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+#you :nth-child(1) {
+    text-decoration: none;
+    color: rgb(3, 205, 84);
+}
+#computer :nth-child(1){
+    text-decoration: none;
+    color: rgb(236, 64, 1);
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+}
+
+.msg {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#msg {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4e73df;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        height: 60%;
+    }
+
+    .logos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo {
+        width: 40%;
+        height: 40%;
+        margin-top: 20px;
+    }
+}
