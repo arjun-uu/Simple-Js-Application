@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(73, 73, 198);
+    padding: 20px;
+}
+.container{
+    border: 1px solid white;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 30px auto;
+}
+.card {
+    background-color: white;
+    justify-content: space-between;
+    width: 90%;
+    margin-top: 5px;
+    padding: 15px 15px;
+    border-radius: 5px;
+    display: flex;
+}
+.card :nth-child(2) {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.container h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: white;
+    padding-bottom: 5px;
+}
+.container h2 span {
+    color: greenyellow;
+    border-bottom: 2px solid greenyellow;
+}
+.card input {
+    width: 90%;
+    outline: none;
+    border: none;
+    font-size: medium;
+}
+button img {
+    height: 25px;
+    width: 25px;
+}
+button {
+    margin-top: 10PX;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgb(165, 210, 97);
+    color: black;
+    font-weight: 700;
+}
