@@ -1,68 +1,70 @@
 # 🚀 Simple JS Applications
 
-This repository contains multiple **simple yet practical JavaScript applications** built to strengthen core concepts like DOM manipulation, API handling, state management, and local storage.
+This repository contains multiple beginner-to-intermediate level JavaScript applications built to strengthen core concepts like DOM manipulation, API handling, event management, and local storage.
 
 ---
 
 ## 📂 Projects Included
 
-### 🌐 1. API Handling
+### 🌐 API Handling
 
-* Fetch data using Fetch API
-* Handle JSON responses
-* Display dynamic content
-* Error handling with async/await
+* Fetch API usage
+* JSON data handling
+* Async/Await & error handling
 
----
+### 🎂 Age Calculator
 
-### 🧮 2. Calculator
+* Calculate age from date of birth
+* Date object usage
+* Dynamic UI update
 
-* Perform basic arithmetic operations
-* Real-time display updates
-* Clean and responsive UI
+### 🧮 Calculator
 
----
+* Basic arithmetic operations
+* Real-time input handling
 
-### 🛒 3. Ecommerce Cart
+### 🛒 Ecommerce Cart
 
-* Add products to cart
-* Increase/Decrease quantity
-* Calculate total price
-* Cart state management
+* Add to cart functionality
+* Quantity management
+* Total price calculation
 
----
-
-### 💰 4. Expense Tracker
+### 💰 Expense Tracker
 
 * Add income & expenses
-* Track balance
-* Dynamic transaction history
+* Balance calculation
 * Data persistence using localStorage
 
----
+### 📱 QR Generator
 
-### 🧠 5. Quiz App
+* Generate QR codes dynamically
+* API integration
 
-* Multiple-choice questions
-* Score calculation
-* Instant feedback
+### 🧠 Quiz App
+
+* Multiple choice questions
+* Score tracking
 * Dynamic question rendering
 
----
-
-### 🔐 6. Random Password Generator
+### 🔐 Random Password Generator
 
 * Generate secure passwords
 * Custom length support
-* Mix of letters, numbers & symbols
+* Letters, numbers & symbols
 
----
+### ✊ Rock Paper Scissor
 
-### 📝 7. To-Do List
+* Game logic implementation
+* Score tracking
 
-* Add tasks
-* Delete tasks
-* Mark as completed
+### ❌⭕ Tic Tac Toe
+
+* Two-player game logic
+* Win condition checking
+
+### 📝 To-Do List
+
+* Add, delete, complete tasks
 * Store tasks using localStorage
 
 ---
@@ -80,9 +82,9 @@ This repository contains multiple **simple yet practical JavaScript applications
 
 ## 🎯 Purpose
 
-* Practice real-world JavaScript applications
-* Strengthen logic-building skills
-* Improve understanding of APIs and async JavaScript
-* Prepare for frontend development & placements
+* Practice real-world JavaScript logic
+* Strengthen fundamentals
+* Improve problem-solving skills
+* Prepare for frontend & product-based company interviews
 
 ---
